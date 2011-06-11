@@ -1,4 +1,4 @@
-/* XOmB
+/* kRaken
  *
  * this code maps in the init process an the segemnts it expects
  * also jumps to userspace
