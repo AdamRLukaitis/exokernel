@@ -1,6 +1,6 @@
-/* XOmB
+/* kRaken
  *
- * This is the main function for the XOmB Kernel
+ * This is the main function for the kRaken Kernel
  *
  */
 
