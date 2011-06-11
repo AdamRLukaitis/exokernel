@@ -1,4 +1,4 @@
-module libos.fs.krakenfs;
+module libos.fs.minfs;
 
 public import user.environment;
 import Syscall = user.syscall;
@@ -29,7 +29,7 @@ alias ubyte[] File;
  */
 
 
-class kRakenFS{
+class MinFS{
 	static:
 	// open the SuperSegment, allowing metadata reads and writes
 	void initialize(){
