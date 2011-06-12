@@ -1,6 +1,6 @@
-h1. Welcome to kRaken!
+h1. Welcome to ______!
 
-kRaken is an exokernel operating system written in the D and Assembly programming languages. It's primarily being developed by Arcterus from http://krudmuffin.com.
+______ is an exokernel operating system written in the D and Assembly programming languages. It's primarily being developed by Arcterus from http://krudmuffin.com.
 
 h2. Goals:
   * Create a highly usable operating system
@@ -19,4 +19,4 @@ Applications may request specific memory addresses, disk blocks, etc. The kernel
 
 h2. System Requirements
 
-kRaken is 64-bit and multi-core only. Support is currently on an as needed basis.
+______ is 64-bit and multi-core only. Support is currently on an as needed basis.
