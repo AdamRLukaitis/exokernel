@@ -1,6 +1,6 @@
 h1. Welcome to ______!
 
-______ is an exokernel operating system written in the D and Assembly programming languages. It's primarily being developed by Arcterus from http://krudmuffin.com.
+______ is an exokernel operating system written in the D and Assembly programming languages. It's primarily being developed by Arcterus from http://krudmuffin.com and, hopefully, the community.
 
 h2. Goals:
   * Create a highly usable operating system
