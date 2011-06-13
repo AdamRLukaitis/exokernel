@@ -19,4 +19,4 @@ Applications may request specific memory addresses, disk blocks, etc. The kernel
 
 h2. System Requirements
 
-______ is 64-bit and multi-core only. Support is currently on an as needed basis.
+As of now, ______ is 64-bit and multi-core only. Support is currently on an as needed basis.
