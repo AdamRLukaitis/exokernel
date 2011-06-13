@@ -123,7 +123,7 @@ hiddenmenu
 
 ## ## End Default Options ##
 
-title		XOmB
-kernel		/boot/xomb
+title		______
+kernel		/boot/______
 module		/binaries/init
 module		/LICENSE
