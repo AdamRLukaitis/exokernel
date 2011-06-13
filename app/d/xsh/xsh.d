@@ -1,6 +1,6 @@
-/* krash.d
+/* _____.d
 
-   kRash (kRaken advanced shell)
+   _____________________________
 
 */
 
