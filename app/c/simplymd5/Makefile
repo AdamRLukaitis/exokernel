@@ -1,4 +1,4 @@
-CC = x86_64-pc-xomb-gcc
+CC = x86_64-pc-______-gcc
 
 all: clean
 	$(CC) -c simplymd5.c -I../../../user/c/include/.
