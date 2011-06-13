@@ -1,8 +1,8 @@
-Instructions for setting up XOmB development machine on a computer running Ubuntu (tested with 11.04)
+Instructions for setting up ______ development machine on a computer running Ubuntu (tested with 11.04)
 
 NOTE: To add directories to your $PATH in an easier way search for 'pathmunge function'. It helps a lot.
 
-1.  Let's build the tools needed for building XOmB:
+1.  Let's build the tools needed for building ______:
     We are going to build the tools from source and thus we need the build dependencies for all of them. This can be achieved through executing the following command in a terminal:
     
         COMMAND:
@@ -18,7 +18,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
 2.  Then it's a matter of cloning the git-repo with the automated build-script for the tools:
 
         COMMANDS:
-        git clone https://github.com/xomboverlord/buildtools.git
+        git clone https://github.com/Arcterus/exokernel.git
         cd buildtools
         ./build.sh
         
@@ -72,7 +72,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
         
 ================================================================================
         Troubleshooting:
-            If you get segmentation faults when compiling XOmB, you need to apply a patch to ldc. This is accomplished through:
+            If you get segmentation faults when compiling ______, you need to apply a patch to ldc. This is accomplished through:
                 1.  create a file in the /ldc directory with a name with .patch as a file ending:
                 
                     touch dmd_regression_fix.patch
@@ -95,7 +95,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
                     patch -p1 < dmd_regression_fix.patch
                                      
 ================================================================================
-4.  OK, time for the build tool - dsss. XOmB devs uses the 0.78 build:
+4.  OK, time for the build tool - dsss. ______ devs uses the 0.78 build:
 
         COMMAND:
         wget http://svn.dsource.org/projects/dsss/downloads/0.78/dsss-0.78-x86-gnuWlinux.tar.bz2
@@ -105,7 +105,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
 
 5.  Time to build the virtualization software, which is bochs. Refer to this page:
 
-        http://wiki.xomb.org/index.php?title=Bochs
+        http://krudmuffin.com
     
     -OR-
     
@@ -123,7 +123,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
 6.  Then we should be able to compile the kernel and user space apps:
         
         COMMANDS:
-        cd xomb/build
+        cd ______/build
         ./configure x86_64 
         
             -OR-
@@ -139,7 +139,7 @@ NOTE: To add directories to your $PATH in an easier way search for 'pathmunge fu
             
                 'ls: cannot access dsss_objs/O/*.o: No such file or directory'
                 
-            Then, we have to mess about in the dsss.conf files for each app under the /xomb/app/d/ directory, i.e. go in in each folder, like 'hello', 'init', 'posix' and 'xsh', open the dsss.conf file for editing and change all ls-commands to stat folder 'G' instead of folder 'O' for *.o.
+            Then, we have to mess about in the dsss.conf files for each app under the /______/app/d/ directory, i.e. go in in each folder, like 'hello', 'init', 'posix' and 'xsh', open the dsss.conf file for editing and change all ls-commands to stat folder 'G' instead of folder 'O' for *.o.
             
             That should take care of it. Try executing the build.sh again.
 ================================================================================
